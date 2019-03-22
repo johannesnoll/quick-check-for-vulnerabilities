@@ -1,2 +1,3 @@
 .idea
 composer-app/vendor
+npm-app/node_modules

@@ -1,0 +1,29 @@
+{
+  "name": "quick-check",
+  "version": "1.0.0",
+  "description": "A project for show how Codario detects vulnerabilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexey Beloglazov",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-art": "^1.4.0",
+    "bower": "^1.8.3",
+    "braces": "^2.3.0",
+    "cached-path-relative": "^1.0.0",
+    "exceljs": "^1.5.0",
+    "generate-password": "^1.4.0",
+    "http-live-simulator": "^1.0.5",
+    "jquery.terminal": "^1.20.0",
+    "js-yaml": "^3.12.1",
+    "loopback-connector-mongodb": "^3.5.0",
+    "m-server": "^1.4.0",
+    "node.extend": "^1.1.3",
+    "safer-eval": "^1.3.0",
+    "static-eval": "^2.0.1",
+    "underscore.string": "^3.3.4",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
