@@ -6,7 +6,7 @@
     "skip_manual_testing": "no",
     "source_branch": "master",
     "destination_branch": "updates/[task:id]",
-    "create_tasks_for": "contains_vulnerable_packages"
+    "create_tasks_for": "all_packages"
   },
   "events": {
     "test_passed": [
