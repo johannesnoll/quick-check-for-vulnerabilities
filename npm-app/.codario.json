@@ -1,0 +1,24 @@
+{
+  "integrations": {
+  },
+  "update_behavior": {
+    "auto_start_updates": "no",
+    "skip_manual_testing": "no",
+    "source_branch": "master",
+    "destination_branch": "updates/[task:id]",
+    "create_tasks_for": "contains_vulnerable_packages"
+  },
+  "events": {
+    "test_passed": [
+      {
+        "merge_branch": {
+          "source": "updates/[task:id]",
+          "delete_after_merge": "yes",
+          "target": [
+            "master"
+          ]
+        }
+      }
+    ]
+  }
+}
